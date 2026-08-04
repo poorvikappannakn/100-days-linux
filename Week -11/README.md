@@ -5,7 +5,7 @@
 
 ## 📖 Overview
 
-This week focuses on advanced Linux text processing, command automation, and combining multiple Linux utilities to solve practical data-processing tasks.
+This week focuses on advanced Linux text processing, command automation, system monitoring, disk usage analysis, and combining multiple Linux utilities to solve practical data-processing and system administration tasks.
 
 ---
 
@@ -44,6 +44,17 @@ This week focuses on advanced Linux text processing, command automation, and com
 - Using `join` with `awk`
 - Practical command combinations
 
+### ✅ System Monitoring and Disk Usage
+- Monitoring running processes using `top`
+- Sorting processes by CPU and memory usage
+- Killing processes from `top`
+- Monitoring system memory using `free`
+- Continuous memory monitoring
+- Checking disk usage with `du`
+- Finding large files using `find` and `du`
+- Sorting disk usage reports
+- Generating disk usage reports
+
 ---
 
 ## 📂 Documentation Added
@@ -52,6 +63,7 @@ This week focuses on advanced Linux text processing, command automation, and com
 - `xargs-command.md`
 - `awk-command.md`
 - `linux-command-pipeline-examples.md`
+- `system-monitoring-and-disk-usage.md`
 
 ---
 
