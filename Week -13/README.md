@@ -6,7 +6,7 @@
 
 ## 📖 Overview
 
-This week focuses on shell variables and basic Bash scripting concepts, including creating and referencing variables, command substitution, arithmetic operations, environment variables, variable scope, handling whitespace when referencing variables, and handling command-line arguments.
+This week focuses on shell variables and basic Bash scripting concepts, including creating and referencing variables, command substitution, arithmetic operations, environment variables, variable scope, handling whitespace when referencing variables, handling command-line arguments, and working with shell arrays.
 
 ---
 
@@ -71,12 +71,24 @@ This week focuses on shell variables and basic Bash scripting concepts, includin
 * Using arithmetic expansion to maintain an argument counter
 * Testing scripts with different numbers of command-line arguments
 
+### ✅ Shell Arrays
+
+* Creating arrays in Bash
+* Storing multiple elements in an array
+* Understanding array indexing
+* Accessing individual array elements
+* Accessing elements using their index
+* Finding the number of elements in an array using `${#array[@]}`
+* Adding elements to an array using `+=`
+* Working with different types of array values such as numbers and strings
+
 ---
 
 ## 📂 Documentation Added
 
 * `shell-variables.md`
 * `command-line-arguments.md`
+* `shell_arrays.md`
 
 ---
 
