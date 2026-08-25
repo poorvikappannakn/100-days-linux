@@ -2,15 +2,15 @@
 
 ## 📅 Status
 
-🚧 Week 13 is currently in progress.
+✅ Week 13 Completed
 
 ## 📖 Overview
 
-This week focuses on shell variables and basic Bash scripting concepts, including creating and referencing variables, command substitution, arithmetic operations, environment variables, variable scope, handling whitespace when referencing variables, handling command-line arguments, working with shell arrays, and basic Linux text editors and shell processes.
+This week focused on shell variables and basic Bash scripting concepts. The topics covered include creating and referencing variables, command substitution, arithmetic operations, environment variables, variable scope, handling whitespace when referencing variables, and handling command-line arguments.
 
 ---
 
-## 📚 Topics Covered So Far
+## 📚 Topics Covered
 
 ### ✅ Shell Variables
 
@@ -21,6 +21,8 @@ This week focuses on shell variables and basic Bash scripting concepts, includin
 * Making shell scripts executable
 * Running shell scripts
 
+---
+
 ### ✅ Referencing Shell Variables
 
 * Referencing variables using `$`
@@ -30,6 +32,8 @@ This week focuses on shell variables and basic Bash scripting concepts, includin
 * Understanding word splitting
 * Difference between `echo $variable` and `echo "$variable"`
 
+---
+
 ### ✅ Command Substitution
 
 * Using `$()` for command substitution
@@ -37,6 +41,8 @@ This week focuses on shell variables and basic Bash scripting concepts, includin
 * Using command substitution with `date`
 * Using command substitution with `ls`
 * Using command substitution with `uptime`
+
+---
 
 ### ✅ Arithmetic Operations
 
@@ -49,6 +55,8 @@ This week focuses on shell variables and basic Bash scripting concepts, includin
 * Increment
 * Decrement
 
+---
+
 ### ✅ Environment Variables
 
 * Understanding environment variables
@@ -57,8 +65,8 @@ This week focuses on shell variables and basic Bash scripting concepts, includin
 * Passing environment variables to child processes
 * Removing variables using `unset`
 * Understanding variable scope
-* Testing whether a variable is available as an environment variable
-* Observing environment variables using `env`
+
+---
 
 ### ✅ Command-Line Arguments
 
@@ -73,69 +81,58 @@ This week focuses on shell variables and basic Bash scripting concepts, includin
 * Using arithmetic expansion to maintain an argument counter
 * Testing scripts with different numbers of command-line arguments
 
-### ✅ Shell Arrays
-
-* Creating arrays in Bash
-* Storing multiple elements in an array
-* Understanding array indexing
-* Accessing individual array elements
-* Finding the number of elements in an array using `${#array[@]}`
-* Adding elements to an array using `+=`
-* Working with different types of array values such as numbers and strings
-
-### ✅ Vi and Vim
-
-* Understanding `vi` as a text editor used in Linux
-* Understanding Normal Mode and Insert Mode
-* Entering Insert Mode using `i`
-* Returning to Normal Mode using `Esc`
-* Saving a file using `:w`
-* Quitting using `:q`
-* Saving and quitting using `:wq`
-* Quitting without saving using `:q!`
-* Understanding Vim as an improved version of Vi
-* Launching the interactive Vim tutorial using `vimtutor`
-* Moving the cursor using `h`, `j`, `k`, and `l`
-* Moving to the beginning of a file using `gg`
-* Searching for a character using `/`
-* Moving to the next search result using `n`
-* Deleting a word using `dw`
-
-### ✅ Nano
-
-* Introduction to the Nano text editor
-* Opening a file using `nano filename`
-
-### ✅ Local and Environment Variables
-
-* Understanding the difference between local variables and environment variables
-* Creating a local variable
-* Checking a local variable using `echo`
-* Understanding that local variables are available within the current shell
-* Creating environment variables using `export`
-* Checking exported variables using `env`
-* Understanding that environment variables can be inherited by child processes
-
-### ✅ Shell Processes and Child Shells
-
-* Understanding the relationship between a parent shell and a child shell
-* Starting a child shell using `bash`
-* Observing the current process ID using `$$`
-* Using `ps -f` to view process information
-* Understanding `PPID` as the parent process ID
-* Using `exit` to return from a child shell to the parent shell
-* Observing variable inheritance between parent and child shells
-
 ---
 
 ## 📂 Documentation Added
 
 * `shell-variables.md`
 * `command-line-arguments.md`
-* `shell_arrays.md`
 
 ---
 
-## 🚀 Progress
+## 🧪 Practical Work
 
-Week 13 is still ongoing. More shell scripting concepts, Linux text-editor usage, shell processes, and practical exercises will be added before the week is completed.
+During this week, I practiced:
+
+* Creating and using shell variables
+* Working with environment variables
+* Exporting variables
+* Understanding variable inheritance
+* Using command substitution
+* Performing arithmetic operations
+* Passing arguments to Bash scripts
+* Processing multiple command-line arguments
+* Using conditional statements
+* Using loops with shell arguments
+* Testing Bash scripts with different inputs
+
+---
+
+## 🚀 Key Learnings
+
+- Shell variables store values that can be reused in commands and scripts.
+- Variables can contain strings or numbers.
+- `$variable` is used to reference a variable.
+- `${variable}` can be used when clearer variable boundaries are required.
+- Quoting variables helps preserve whitespace.
+- `$()` performs command substitution.
+- `$(( ))` performs arithmetic expansion.
+- Environment variables can be passed to child processes.
+- `export` makes a variable available to child processes.
+- `$1`, `$2`, `$3`, etc. represent positional arguments.
+- `$#` represents the number of arguments passed to a script.
+- `$@` represents all positional arguments.
+- `elif` allows multiple conditions to be checked.
+- `fi` closes a Bash `if` statement.
+- `for` loops can be used to process multiple command-line arguments.
+- Bash scripting can automate repetitive command-line tasks.
+
+---
+
+## 📌 Week 13 Summary
+
+Week 13 strengthened my understanding of Bash shell scripting fundamentals, especially variables, environment variables, command substitution, arithmetic operations, and command-line arguments.
+
+The focus was on understanding how the shell handles data and how Bash scripts can accept and process input dynamically.
+
+**Status: ✅ Completed**
